@@ -18,5 +18,6 @@ void _start(void) {
 int main(void) {
   foo();
   volatile int baz = y.a[0];
-  return baz;
+  volatile int qux = baz*baz;
+  return qux;
 }
